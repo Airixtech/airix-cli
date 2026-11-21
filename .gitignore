@@ -22,3 +22,45 @@ wheels/
 
 # Sidecar Node
 sidecar/node_modules/
+
+# --- Base de AIRIX (airix-workspace/gitignore-base: todos, publicos) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials*.json
+token*.json
+service-account*.json
+secrets/
+desktop.ini
+Thumbs.db
+.DS_Store
+.obsidian/
+.trash/
+*.pyc
+.venv/
+venv/
+graphify-out/
+.cache/
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
+*.zip
+*.rar
+*.7z
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.tflite
+*.h5
